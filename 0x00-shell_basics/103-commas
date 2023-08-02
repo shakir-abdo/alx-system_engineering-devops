@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$(ls -a -m --classify -S)\n"
+echo -e "$(ls -a -m --classify -v)\n"

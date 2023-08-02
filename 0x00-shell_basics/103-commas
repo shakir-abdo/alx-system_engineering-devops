@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e "$(ls -a -m --classify -S)\n"

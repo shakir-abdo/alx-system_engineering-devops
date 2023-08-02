@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$(ls -a -m --classify  --format=commas  -v)\n"
+echo -e "$(ls -a -m --file-type  --format=commas  -v)\n"

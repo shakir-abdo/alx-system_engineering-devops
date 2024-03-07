@@ -48,6 +48,6 @@ frontend  shakir-abdo.tech-https-frontend
 
 backend shakir-abdo.tech-backend
         balance roundrobin
-        server 914-web-01 54.209.118.242:80 check
-        server 914-web-02 35.174.213.243:80 check
+        server 512762-web-01 54.209.118.242:80 check
+        server 512762-web-02 35.174.213.243:80 check
 # end of parameters

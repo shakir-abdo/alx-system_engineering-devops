@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 sudo rm /etc/nginx/sites-enabled/default;
 # Create symbolic link to the deafult file in sites-available
-sudo ln -s /etc/nginx/sites-available/default default;
+sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/;
 # allow port 80 in fire wall
 sudo ufw allow 'Nginx HTTP'
 # Restart Nginx

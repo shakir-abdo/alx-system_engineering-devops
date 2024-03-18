@@ -1,0 +1,5 @@
+sudo ufw allow 'Nginx HTTP'
+sudo ufw allow 'Nginx HTTPS'
+sudo ufw allow 'OpenSSH'
+sudo ufw enable
+

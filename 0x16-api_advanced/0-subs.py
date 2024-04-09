@@ -2,9 +2,7 @@
 """
 Returns the number of subs of a reddit sub
 """
-
 import requests
-
 
 def number_of_subscribers(subreddit):
     """returns the number of subscribers for a given subreddit"""

@@ -22,7 +22,7 @@ def number_of_subscribers(subreddit):
         Otherwise, returns 0.
     """
 
-    headers = {"User-Agent": "Mozilla/5.0, ALX project"}
+    headers = {"User-Agent": "Mozilla/5.0 ALX project"}
 
     if not subreddit:
         return 0

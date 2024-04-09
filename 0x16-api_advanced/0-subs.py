@@ -4,11 +4,23 @@
 Return: the number of subs of a reddit sub
 """
 
+
 import requests
 
 
 def number_of_subscribers(subreddit):
-    """returns the number of subscribers for a given subreddit"""
+    """
+    Function that queries the Reddit API and returns the number of subscribers
+    for a given subreddit. If an invalid subreddit is given,
+    returns 0.
+
+    Args:
+        subreddit (str): The name of the subreddit.
+
+    Returns:
+        int: The number of subscribers of the subreddit.
+        Otherwise, returns 0.
+    """
     headers = {"User-Agent": "Mozilla/5.0, ALX project"}
 
     if not subreddit:

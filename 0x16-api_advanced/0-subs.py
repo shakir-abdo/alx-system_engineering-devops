@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Returns the number of subs of a reddit sub
 """

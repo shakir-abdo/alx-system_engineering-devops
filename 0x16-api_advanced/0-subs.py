@@ -21,6 +21,7 @@ def number_of_subscribers(subreddit):
         int: The number of subscribers of the subreddit.
         Otherwise, returns 0.
     """
+
     headers = {"User-Agent": "Mozilla/5.0, ALX project"}
 
     if not subreddit:

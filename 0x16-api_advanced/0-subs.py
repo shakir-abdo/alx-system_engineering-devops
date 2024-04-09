@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-"""
-Returns the number of subs of a reddit sub
+"""get subscribers
+
+Return: the number of subs of a reddit sub
 """
 
 import requests

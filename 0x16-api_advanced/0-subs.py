@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""getsubscribers
-
+"""
 Return: the number of subs of a reddit sub
 """
 
